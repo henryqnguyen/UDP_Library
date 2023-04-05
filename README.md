@@ -35,12 +35,11 @@
       }
     }
         
-    ```
+```
     
+**This is receive UDP messages**
     
-    **This is receive UDP messages**
-    
-    ```csharp
+```csharp
         private async void ReceiveGunDriveDataAsync()
     {
       _receivingEndPoint ??= new IPEndPoint(IPAddress.Any, Int32.Parse(Properties.Settings.Default.EmulatorListenPort));
@@ -142,6 +141,7 @@
         }
       }
     }
-    ```
+    
+```
     
     
